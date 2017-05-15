@@ -1,0 +1,5 @@
+/**
+ * Created by tianyu on 17-5-7.
+ */
+$(".replies").append("<%= j render(partial: 'shared/comment', locals: {c: @comment}) %>");
+$(".reply textarea").val('');

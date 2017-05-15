@@ -1,0 +1,65 @@
+.navbar {
+    background: #222;
+    position: relative;
+    z-index: 1000;
+    //background: transparent;
+  a {
+    color: #7a4925;
+  }
+  a:hover {
+    color: #f9f6ff;
+  }
+}
+.navbar-brand {
+    float: left;
+    padding-left: 0;
+    line-height: 80px;
+    font-size: 40px;
+}
+.nav.left {
+    float: left;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.nav.right {
+    float: right;
+}
+.nav  li {
+    float: left;
+}
+.nav  li  a {
+    display: block;
+    font-size: 1.1em;
+    line-height: 40px;
+    padding: 5px 10px;
+    margin: 15px 10px;
+}
+.nav  li  a:hover {
+    color: #f9f6ff;
+    background: #876f35;
+}
+.footer {
+    border-top: 1px solid #c5c5c5;
+    min-height: 200px;
+    margin: 3em 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background: #f8f5f0;
+}
+.home-banner{
+    height: 600px;
+  img{
+    position: absolute;
+    width: 100%;
+    height:90%;
+    z-index: -40;
+  }
+}
+.index .navbar {
+    background: transparent;
+}
+.about{
+    margin-left: 20px;
+}
+
+
